@@ -17,6 +17,7 @@ jobs:
         with:
           build: npx cypress info
           record: true
+          parallel: true
           start: npm start
           wait-on: 'http://localhost:8080'
         env:
