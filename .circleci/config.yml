@@ -11,4 +11,6 @@ workflows:
           wait-on: 'http://localhost:8080'
           no-workspace: true
           record: true
-          tags: circleci          
+          tags: circleci       
+          parallel: true
+          parallelism: 2   
